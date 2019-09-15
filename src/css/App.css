@@ -1,0 +1,126 @@
+body {
+  background: linear-gradient(to right,#FFC171, rgb(252, 108, 120));
+}
+
+.head {
+  /* color: #111111; */
+  color: #FFF;
+  font-size: 45px;
+}
+
+.content-list {
+  margin-top: 30px;
+  padding: 25px 30px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.data-list {
+  max-height: 46vh;
+  overflow-x: auto;
+}
+
+.content-list .container-datalist {
+  position: relative;
+  border-left: 3px solid orange;
+  margin-bottom: 20px;
+  padding-left: 8px;
+}
+
+.container-datalist .listing {
+  width: 93%;
+}
+
+.container-datalist .fa {
+  position: absolute;
+  top: 10px;
+  right: 1%;
+  font-size: 25px;
+  color: coral;
+  cursor: pointer;
+}
+
+.content-list .description {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.content-list .assigner {
+  font-size: 11px;
+  color: grey;
+  margin: 0;
+}
+.content-list .sub-assigner {
+  font-weight: bold;
+}
+
+/* Defaults */
+.center {
+  text-align: center;
+}
+
+.divider {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.dev-links {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+}
+.dev-links .fa {
+  margin: 0 5px;
+  font-size: 22px;
+}
+.dev-links .fa-github {
+  color: #000;
+}
+.dev-links .fa-github:hover {
+  color: rgb(51, 42, 218);
+}
+.dev-links .fa-facebook-official {
+  color: #3B579D;
+}
+.dev-links .fa-facebook-official:hover {
+  color: rgb(20, 239, 255);
+}
+.dev-links .fa-linkedin-square {
+  color: #007BB6;
+  font-size: 23px;
+}
+.dev-links .fa-linkedin-square:hover {
+  color: rgb(16, 57, 145);
+}
+.dev-author {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  color: white;
+}
+
+.dev-author .fa-paw {
+  color: rgb(111, 0, 255);
+}
+
+
+/* Handlebar */
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f0f0f0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 173, 105);
+}
